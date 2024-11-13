@@ -67,7 +67,7 @@ If you face any error with react-native-canvas, install using expo, this will in
 ```bash
 expo install react-native-canvas
 ```
-**Lastly**, if you face any error while installing or running the project, especially no Macbook, run all commands with `sudo`
+**Lastly**, if you face any error while installing or running the project, especially on Macbook, run all commands with `sudo`
 
 ## Learn more
 
