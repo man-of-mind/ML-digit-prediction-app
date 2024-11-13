@@ -2,6 +2,28 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
+## Prerequisites To get started, you’ll need to install the following prerequisites.
+
+**1. Install Node.js and npm** Node.js is required for React Native projects as it includes `npm` (Node Package Manager), which is used to install packages. Download Node.js from [Node.js](https://nodejs.org/) and download the latest stable version. This will install both `node` and `npm`. After installation, verify them with:
+```bash
+node -v   # Check Node.js version
+npm -v    # Check npm version
+```
+
+**2. Install Expo CLI** Expo CLI is a command-line tool for running and managing React Native projects built with Expo. Install Expo CLI globally with:
+```bash
+npm install -g expo-cli
+```
+Verify installation
+```bash
+expo --version
+```
+**3. Clone the Repository Clone the project repository to your local machine**
+```bash
+git clone url-link
+cd zuks
+```
+
 ## Get started
 
 1. Install dependencies
@@ -48,3 +70,16 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+**Troubleshooting**
+Packages Used The following packages are used in the project. Install them using the commands below if they aren’t already included.
+```bash
+npm install react-native-canvas
+npm install axios
+```
+If you face any error with react-native-canvas, install using expo, this will install any other missing dependencies
+```bash
+expo install react-native-canvas
+```
+**Lastly, if you face any error while installing or running the project, especially no Macbook, run all commands with `sudo`
