@@ -57,6 +57,18 @@ npm run reset-project
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
+## Troubleshooting
+Packages Used The following packages are used in the project. Install them using the commands below if they aren’t already included.
+```bash
+npm install react-native-canvas
+npm install axios
+```
+If you face any error with react-native-canvas, install using expo, this will install any other missing dependencies
+```bash
+expo install react-native-canvas
+```
+**Lastly**, if you face any error while installing or running the project, especially no Macbook, run all commands with `sudo`
+
 ## Learn more
 
 To learn more about developing your project with Expo, look at the following resources:
@@ -70,16 +82,3 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-
-
-**Troubleshooting**
-Packages Used The following packages are used in the project. Install them using the commands below if they aren’t already included.
-```bash
-npm install react-native-canvas
-npm install axios
-```
-If you face any error with react-native-canvas, install using expo, this will install any other missing dependencies
-```bash
-expo install react-native-canvas
-```
-**Lastly, if you face any error while installing or running the project, especially no Macbook, run all commands with `sudo`
