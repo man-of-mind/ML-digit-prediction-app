@@ -21,7 +21,7 @@ expo --version
 **3. Clone the Repository Clone the project repository to your local machine**
 ```bash
 git clone [url-link](https://github.com/man-of-mind/ML-digit-prediction-app.git)
-cd zuks
+cd ML-digit-prediction-app
 ```
 
 ## Get started
